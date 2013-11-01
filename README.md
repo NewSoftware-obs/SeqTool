@@ -1,4 +1,4 @@
 SeqTool
 =======
 
-Programs dealing with biological sequence
+Programs dealing with biological sequences
