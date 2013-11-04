@@ -2,6 +2,8 @@
 # Filename: randfasta.py
 # Description:
 #   output a number of randomly selected sequences from a fasta file
+# Author:
+# Nanjiang Shu  nanjiang.shu@scilifelab.se
 import os
 import sys
 import random
@@ -20,11 +22,11 @@ OPTIONS:
   -n     INT  Output N sequences instead of all
   -o    FILE  Output the result to file
   -seed  INT  Set random seed, (default: set by time)
-  -bs|--block-size INT  
+  -bs, --block-size INT
               Size for blocks when reading file, (default: 100000)
-  -h|--help   Print this help message and exit
+  -h, --help  Print this help message and exit
 
-Created 2011-04-08, updated 2011-10-31, Nanjiang
+Created 2011-04-08, updated 2011-10-31, Nanjiang Shu
 
 Examples:
     randfasta.py test.fa -n 20 -o test.sel20.fa # output 20 random sequence from test.fa
