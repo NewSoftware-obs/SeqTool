@@ -224,17 +224,17 @@ def uniquelist(li, idfun=None):#{{{
     """
     Return the unique items of a list while keep the order of the original list
     """
-   # order preserving
-   if idfun is None:
-       def idfun(x): return x
-   seen = {}
-   result = []
-   for item in li:
-       marker = idfun(item)
-       if marker in seen: continue
-       seen[marker] = 1
-       result.append(item)
-   return result
+    # order preserving
+    if idfun is None:
+        def idfun(x): return x
+    seen = {}
+    result = []
+    for item in li:
+        marker = idfun(item)
+        if marker in seen: continue
+        seen[marker] = 1
+        result.append(item)
+    return result
 #}}}
 class MyDB: #{{{
 # Description:

@@ -3,7 +3,7 @@
 # Description:
 #   output a number of randomly selected sequences from a fasta file
 # Author:
-# Nanjiang Shu  nanjiang.shu@scilifelab.se
+#   Nanjiang Shu  nanjiang.shu@scilifelab.se
 import os
 import sys
 import random
